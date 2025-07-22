@@ -1,12 +1,33 @@
-# React + Vite
+# Maze Solver with BFS Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive maze solver that demonstrates Breadth-First Search algorithm with step-by-step visualization.
 
-Currently, two official plugins are available:
+![Maze Solver Demo](demo.gif)  <!-- Add a demo gif later -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Interactive maze editing
+- Random maze generation
+- BFS algorithm visualization
+- Adjustable animation speed
+- Clear visual distinction between visited nodes and final path
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend (Flask)
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+### Frontend (React)
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Technologies
+- Frontend: React, Tailwind CSS
+- Backend: Python, Flask
+- Algorithm: Breadth-First Search (BFS)
