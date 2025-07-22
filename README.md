@@ -2,7 +2,7 @@
 
 Interactive maze solver that demonstrates Breadth-First Search algorithm with step-by-step visualization.
 
-![Maze Solver Demo](demo.mp4)  <!-- Add a demo gif later -->
+![Maze Solver Demo](demo.gif)  <!-- Add a demo gif later -->
 
 ## Features
 - Interactive maze editing
